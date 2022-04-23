@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Vakhtangi Kapanadze</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+    <body id="mainBody">
+        <header class="line g-0 header">
+            <section class="col-3 section-1">
+                <img id="header-picture" class="img-thumbnail" src="Image/image.jpeg" alt="Vakhtangi Kapanadze">
+            </section>
+            
+            <section class="col-9 g-0 section-2">
+                <h1 class="line g-0 header-container">Vakhtangi Kapanadze</h1>
+                <nav class="line g-0 header-navigation">
+                    <a href="#about-me">About me</a>
+                    <a href="#experience">Work Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#cource">Course</a>
+                    <a href="#language">Language</a>                        
+                    <a href="#skills">Skills</a>
+                    <a href="#code-example">Code Example</a>                           
+                </nav>
+            </section>    
+        </header>
+        <main class="row g-0 main-container">
+            
+            <aside class="col-3 g-0 aside-container">
+                <nav>
+                    <h2 class="contact-information-list">Contact Information</h2>
+                    <ul class="contact-information">
+                    <li>E-mail: vakhtangi.kapanadze@gmail.com</li>
+                    <li>Location: Tbilisi, Georgia </li>                        
+                    <li><a href="https://www.linkedin.com/in/vakhtangi-kapanadze-856803186/">Linkedin</a></li>
+                    </ul>
+                    <h2 id="language">Language</h2>
+                        <ul class="language">
+                            <li>Georgian: Native</li>
+                            <li>English - B2</li>
+                            <li>Russian: A2</li>
+                        </ul>
+                </nav>
+                
+            </aside>
+            <section class="col-9 g-0 right-container">
+                <h2 class="hidden">Main content</h2>
+                <section class="about-me">
+                    <h2 id="about-me">About me</h2>
+                    <p>
+                        Since 2018 I am an attorney in civil law, every day increase the usage of the tech field, so I decided to learn the tech field to be able to make jurisdiction more simple and available to everyone. So I want to learn Front-End Development in RSSchool!
+                    </p>
+                </section>
+                <section class="education">
+                    <h2 id="education">Education</h2>
+                    <ul>
+                        <li>LLM of Comparative Private and International law at New Vision University (09/2017 - 09/2019)</li>
+                        <li>LLB at Ilia State University (2013 - 2017)</li>
+                    </ul>
+                </section>
+                <section class="cource">
+                    <h2 id="cource">Cource</h2>
+                    <ul>
+                        <li>RS Schools Course JavaScript/Front-end (in progress)</li>
+                        <li>BitCamp (in progress)</li>
+                    </ul>
+                </section>
+                <section class= "skills">
+                    <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git</li>
+                        <li>GitHub</li>                            
+                    </ul>
+                </section>                    
+                <section class="experience">
+                    <h2 id="experience">Work Experience</h2>
+                    <p>Lawyer at K&CO (03/2020 - 03/2022)</p>
+                    <p>Member of Georgian Bar Association (10/2020 - Present)</p>
+                    <p>Paralegal at Law Office OK & CG (12/2019 - 09/2020)</p>
+                    <p>Junior Lawyer at Financial Bureau (05/2017 - 11/2017)</p>
+               </section>  
+    
+                <section class="code-example">
+                    <h2 id="code-example">Code Example</h2>
+                    <details>
+                    <summary> Show Code </summary>
+                    <pre>
+                        <code>
+                            var STARTING_SIZE = getWidth();
+                            var MIN_SIZE = 5;
+                            var circleRadius = STARTING_SIZE / 2;
+                            
+                            
+                            function start(){
+                                while(true) {
+                                    if(circleRadius < MIN_SIZE || STARTING_SIZE < MIN_SIZE){
+                                        break;
+                                    }
+                                    var squarePositionWidth = getWidth() / 2 - STARTING_SIZE / 2;
+                                    var squarePositionHeight = getHeight() / 2 - STARTING_SIZE /2;
+                                    var square = new Rectangle(STARTING_SIZE,STARTING_SIZE);
+                                    var circle = new Circle(circleRadius);
+                                    square.setPosition(squarePositionWidth, squarePositionHeight);
+                                    circle.setPosition(getWidth() / 2, getHeight() / 2);
+                                    square.setColor(Randomizer.nextColor());
+                                    circle.setColor(Randomizer.nextColor());
+                                    STARTING_SIZE = ((circleRadius * 2)/Math.sqrt(2));
+                                    circleRadius = STARTING_SIZE / 2;
+                                    add(square);
+                                    add(circle);
+                                }
+                            }
+                        </code>
+                    </pre>
+                    </details>
+                </section>
+            </section>
+        </main>
+        <footer class="footer-box">
+            
+            <a href="https://github.com/vakhtangi44" target="_blank">
+                <img class="footer-logo-github" src="Image/GitHub-Emblem.png" alt="GitHub">
+              </a>
+            <p><a href="https://github.com/vakhtangi44" target="_blank">Vakhtangi kapanadze</a><br>
+                <time id="footer-date" datetime="2022-04">© April,2022</time>
+            </p>
+            
+    
+            <a href="https://rs.school/js-en/" target="_blank">
+                <img class="footer-logo-rs" src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js">
+              </a>
+        </footer>
+    
+    </body>
+</html>

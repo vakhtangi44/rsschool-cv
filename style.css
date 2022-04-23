@@ -1,0 +1,157 @@
+#mainBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(106, 168, 226, 0.418);
+}
+
+.header-container, .header-navigation {
+    padding: 0px 10px 10px 10px;
+}
+
+.header-container {
+    justify-content:flex-start;
+    padding-top: 70px;
+}
+
+.header-navigation {
+    font: size 45px;;
+    align-items:flex-end;
+    justify-content:left;
+    padding-top: 25px;
+    width: auto;
+    color: rgb(71, 27, 27);
+}
+
+#header-picture {
+    width: 900px;
+    height: auto;
+    border-radius: 1%;
+}
+
+
+.header-navigation a {
+    text-decoration: none;
+    width: auto;
+    color: rgb(49, 28, 28);
+    padding: 0px 30px 0px 0px;
+}
+
+.section-1,
+.section-2 {
+    width: 25%;
+    padding: 20px;
+}
+
+
+.aside-container {
+    width: 30%;
+    padding: 20%;
+}
+.contact-information {
+    font-size: 15px;
+}
+
+h2.contact-information-list {
+    padding: 20px;
+    margin: auto;
+}
+
+h2#language {
+    padding: 20px;
+    margin: auto;
+}
+
+ul.contact-information {
+    list-style: none;
+}
+
+ul.contact-information li {
+    padding: 5px 10px 5px 5px;
+}
+
+ul.language{
+    padding-left: 60px;
+}
+
+ul.skills li {
+    padding: 5px 10px 5px 5px;
+}
+
+.right-container {
+    width: 75%;
+    padding: 20px;
+    background-color: #474a4e;
+    color: rgb(255, 255, 255);
+}
+
+.aside-container {
+    background-color:#656672;
+    font: size 15px;;
+    width: auto;
+    color: rgb(255, 255, 255);
+
+}
+
+.aside-container, 
+.right-container {
+    padding: 20px;
+}
+
+.footer-box {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    max-width: 1200px;
+    background-color: rgb(144, 193, 216);
+    justify-content:space-between;
+    background-color:rgba(50, 107, 139, 0.418);
+}
+
+.footer-logo-github {
+    padding: 10px;
+    width: 75px;
+    height: auto;
+}
+
+
+.footer-logo-rs {
+    padding: 10px;
+    width: 100px;
+    height: auto;
+}
+
+time#footer-date {
+    padding-left: 25%;
+    font-size: small;
+}
+
+p a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: cursive;
+}
+
+.hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+section {
+    padding: 20px;
+}
