@@ -22,7 +22,7 @@
 * **LLB at Ilia State University** (2013 - 2017)
 
 ## Cources
-* RS Schools Course  «JavaScript/Front-end. Stage 0» (in progress)
+* RS Schools Course  JavaScript/Front-end.(in progress)
 * bitcamp (in progress)
 
 
