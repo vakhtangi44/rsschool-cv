@@ -6,7 +6,7 @@
 * *[Linkedin](https://www.linkedin.com/in/vakhtangi-kapanadze-856803186/)*
 
 ### Briefly About Myself:
-*I want to learn Front-End Development in RSSchool!*
+*Since 2018 I am an attorney in civil law, every day increase the usage of the tech field, so I decided to learn the tech field to be able to make jurisdiction more simple and available to everyone. So I want to learn Front-End Development in RSSchool!*
 
 
 ### Work Experience:
