@@ -2,7 +2,6 @@
 
 ### Contact Information:
 
-* Tel: + 995 591 08 77 57 
 * e-mail: *<vakhtangi.kapanadze@gmail.com>*
 * *[Linkedin](https://www.linkedin.com/in/vakhtangi-kapanadze-856803186/)*
 
